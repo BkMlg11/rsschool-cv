@@ -1,1 +1,210 @@
+:root {
+    --font-fam: Verdana, sans-serif;
+}
+
+.font-fam {
+    font-family: var(--font-fam);
+}
+
+header {
+    background-color: steelblue;
+    height: 200px;
+    margin: 0px, 0px;
+}
+.wrapper {
+    margin: auto;
+    padding: auto;
+    max-width: 900px;
+    height: 200px;
+}
+
+.bkmlg11 {
+    font-size: 36px;
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 100px;
+
+}
+
+.frontend {
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 16px;
+
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    /*background-color: rgb(176, 180, 184);*/
+
+    
+}
+.section__one {
+
+    flex: 0.4 0 auto;
+    background-color: rgb(180, 201, 219);
+}
+.useless_h2 {
+    display: none;
+}
+.my_photo {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.contacts {
+ 
+    font-size: 14px;
+    padding: 0, 0;
+    margin: 0, 0;
+}
+
+.contacts__title {
+
+    margin: 50px;
+}
+
+.contacts__list {
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -50px;
+}
+
+.contacts__list__item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.contacts__icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.english {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.english__level {
+    margin-left: 50px;
+}
+.section__two {
+    flex-grow: 0.6;
+    flex-shrink: 0;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    margin-left: 0;
+    background-color: rgb(116, 166, 207);
+
+}
+
+.summary {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.summary__text {
+    width: 500px;
+    padding-right:  50px;
+    margin-left: 50px;
+}
+.skills {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.skill_list {
+    line-height: 1.5;
+    margin-left: 40px;
+
+}
+
+.sample_of_code {
+    margin-top:  50px;
+    margin-left: 50px;
+}
+
+.code_example {
+    padding: 0;
+    border: 10px, solid, black;
+    margin-left: 0px;
+
+    z-index: 100;
+
+}
+.code_example__pre {
+    padding: 0;
+    margin-left: -120px
+}
+
+.education {
+    margin-left: 50px;
+}
+
+.education__list  {
+    margin-left: 40px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+
+    padding: 25px 0px;
+    background-color: steelblue;
+}
+
+.rssschool {
+    flex: 0.5, 0, auto;
+    background-color: steelblue;
+}
+
+.rsslogo__img {
+    
+    padding-left: 75px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.github {
+    flex: 0.15, 0, auto;
+    margin-left: 125px;
+}
+
+.github__img {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80px;
+    height: 20px;
+}
+.bkmlg11_github {
+    flex: 0.35, 0, auto;
+    margin-left: 5px;
+    margin-top: -2px;
+    font-size: 20px;
+    font-family: var(--font-fam);
+    font-weight: 700;
+    color: black;
+
+}
+.bkmlg11_github__link{
+    color: black;
+}
+.year {
+    font-size: 24px;
+    font-family: var(--font-fam);
+    font-weight: 700;
+    margin-top: 8px;
+    margin-left: 75px;
+
+}
 
